@@ -1,0 +1,37 @@
+panel,row,item,colour,source,delta,lo,hi,treated_S,control_S,datasets,folds
+a,Domain toolkits and skills (15),Luna Codex + AWS skill,Luna,Luna + AWS skill,-2.4317,-8.69,3.5251,28.3249,30.7566,24.0,58.0
+a,Domain toolkits and skills (15),Luna Codex + tsfresh,Luna,Luna + tsfresh,1.2341,-3.3813,5.6733,31.9907,30.7566,24.0,58.0
+a,Domain toolkits and skills (15),Luna Codex + LG,Luna,Luna + PdM server,-0.9579,-9.7043,8.8377,39.7774,40.7353,9.0,25.0
+a,Domain toolkits and skills (15),Luna Codex + PyOD,Luna,Luna + PyOD,2.2063,-5.5463,12.0889,33.1381,30.9318,4.0,10.0
+a,Domain toolkits and skills (15),Luna Codex + ProgPy,Luna,Luna + ProgPy,-0.9122,-4.9314,3.2332,20.0998,21.012,15.0,35.0
+a,Domain toolkits and skills (15),Luna Codex + components,Luna,Luna + own components,1.7191,-3.2852,7.406,32.4756,30.7566,24.0,58.0
+a,Domain toolkits and skills (15),Luna Codex + components + validation tools,Luna,Luna + own components and validation tools,-0.7329,-5.7469,3.8771,30.0237,30.7566,24.0,58.0
+a,Domain toolkits and skills (15),Luna Codex + AWS skill after submission,Luna,Luna + AWS skill after first submission,-0.7978,-3.7651,2.2611,29.966,30.7638,24.0,57.0
+a,Domain toolkits and skills (15),Astra Codex + AWS skill,Astra,Astra + AWS skill,-3.172,-6.9895,0.163,40.3945,43.5664,24.0,58.0
+a,Domain toolkits and skills (15),Astra Codex + tsfresh,Astra,Astra + tsfresh,-4.782,-9.2381,-0.6189,38.7844,43.5664,24.0,58.0
+a,Domain toolkits and skills (15),Astra Codex + LG,Astra,Astra + PdM server,3.0772,-0.9632,8.3323,48.8143,45.7371,9.0,25.0
+a,Domain toolkits and skills (15),Astra Codex + PyOD,Astra,Astra + PyOD,-2.3339,-9.4887,4.17,41.5885,43.9224,4.0,10.0
+a,Domain toolkits and skills (15),Astra Codex + ProgPy,Astra,Astra + ProgPy,1.1773,-4.1998,7.8166,34.1069,32.9296,15.0,35.0
+a,Domain toolkits and skills (15),Kimi Codex + components,Kimi,Kimi + own components,-2.7923,-7.307,2.0026,36.3553,39.1476,24.0,58.0
+a,Domain toolkits and skills (15),Luna OpenCode + AWS skill,Luna,Luna (OpenCode) + AWS skill,-0.8104,-5.5255,4.03,30.1516,30.9619,24.0,58.0
+a,Domain toolkits and skills (15),mean of the 15,,mean of rows above,-0.6873,,,,,,
+a,"Luna, given Astra's plans",,Luna,,5.8195,-1.3338,13.1115,36.7814,30.9619,24.0,58.0
+a,"Astra, given Luna's plans",,Astra,,-12.6584,-19.4668,-5.7408,31.5136,44.172,24.0,58.0
+a,"Astra, without the data",,Astra,,-14.6588,-22.6479,-6.6323,29.5132,44.172,24.0,58.0
+a,"Luna, without the data",,Luna,,-4.9707,-13.5042,3.3009,25.9912,30.9619,24.0,58.0
+b,Four standard runs,"CPU, local workstation",Qwen,Qwen3.6,1.6349,-1.5539,5.4219,14.2539,12.619,24.0,58.0
+b,Four standard runs,"CPU, cluster",Qwen,Qwen3.6,0.3827,-2.3404,3.2753,13.0017,12.619,24.0,58.0
+b,Four standard runs,GPU,Qwen,Qwen3.6,-1.9129,-5.0412,1.0994,10.706,12.619,24.0,58.0
+b,Four standard runs,"2 h, concurrent with skill runs",Qwen,Qwen3.6,-0.1046,-3.1214,2.8974,12.5143,12.619,24.0,58.0
+b,"8-bit weights, CPU",,Qwen,,-0.6597,-4.8231,3.7703,11.9593,12.619,24.0,58.0
+b,"8-bit weights, GPU",,Qwen,,1.4985,-4.0052,8.2107,14.1175,12.619,24.0,58.0
+b,"16-bit weights, 2×A100",,Qwen,,3.9829,-0.4886,9.2087,16.6018,12.619,24.0,58.0
+b,Four hours instead of two,,Qwen,,0.4986,-3.5626,4.7632,13.1176,12.619,24.0,58.0
+b,"Workflow skill, run 1",,Qwen,,6.3741,2.3779,10.7765,18.9931,12.619,24.0,58.0
+b,"Workflow skill, run 2",,Qwen,,-1.1005,-4.3333,1.9745,11.5185,12.619,24.0,58.0
+b,Gemma 4 instead of Qwen3.6,,Gemma,,3.9003,-0.7978,8.4744,16.5193,12.619,24.0,58.0
+b,Astra's plans,,Qwen,,-3.2922,-7.3822,0.9675,9.3268,12.619,24.0,58.0
+b,Luna's plans,,Qwen,,2.0583,-3.4469,7.6108,14.6772,12.619,24.0,58.0
+b,"Astra's plans, lightened",,Qwen,,-3.0599,-7.338,1.3701,9.5591,12.619,24.0,58.0
+b,Gap to weakest frontier agent,Luna 30.84 - four-run mean 12.62,Luna,,18.2247,,,30.8437,12.619,24.0,58.0
+b,"Workflow skill, run 1 minus run 2",connector annotation,,,7.4746,3.7407,11.427,18.9931,11.5185,24.0,58.0

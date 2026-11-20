@@ -1,0 +1,26 @@
+{
+ "dataset": "NCMAPSS",
+ "family": "NCMAPSS",
+ "domain": "航空发动机",
+ "task": "剩余寿命回归",
+ "mode": "stream",
+ "metric": "rmse",
+ "aggregation": "pooled",
+ "prediction_values": null,
+ "unit": "cycle",
+ "split_type": "official_holdout",
+ "n_folds": 1,
+ "stream_layout": "manifest",
+ "development_auxiliary": false,
+ "entities": [
+  {"id": "engine_02", "public_id": "entity_0002", "physical": {}},
+  {"id": "engine_05", "public_id": "entity_0008", "physical": {}},
+  {"id": "engine_10", "public_id": "entity_0001", "physical": {}},
+  {"id": "engine_16", "public_id": "entity_0003", "physical": {}},
+  {"id": "engine_18", "public_id": "entity_0009", "physical": {}},
+  {"id": "engine_20", "public_id": "entity_0005", "physical": {}},
+  {"id": "engine_11", "public_id": "entity_0007", "physical": {}},
+  {"id": "engine_14", "public_id": "entity_0004", "physical": {}},
+  {"id": "engine_15", "public_id": "entity_0006", "physical": {}}
+ ]
+}

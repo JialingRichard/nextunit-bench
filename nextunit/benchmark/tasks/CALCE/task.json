@@ -1,0 +1,29 @@
+{
+ "dataset": "CALCE",
+ "family": "CALCE-CS2-CX2",
+ "domain": "电池",
+ "task": "十次放电观测后的容量预测",
+ "mode": "stream",
+ "metric": "mae",
+ "aggregation": "entity_equal",
+ "prediction_values": null,
+ "unit": "Ah",
+ "split_type": "entity_kfold",
+ "n_folds": 3,
+ "stream_layout": "flat",
+ "development_auxiliary": false,
+ "entities": [
+  {"id": "CS2_33", "public_id": "entity_0011", "physical": {"nominal_capacity_Ah": 1.1, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}},
+  {"id": "CS2_34", "public_id": "entity_0006", "physical": {"nominal_capacity_Ah": 1.1, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}},
+  {"id": "CS2_35", "public_id": "entity_0002", "physical": {"nominal_capacity_Ah": 1.1, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}},
+  {"id": "CS2_36", "public_id": "entity_0010", "physical": {"nominal_capacity_Ah": 1.1, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}},
+  {"id": "CS2_37", "public_id": "entity_0012", "physical": {"nominal_capacity_Ah": 1.1, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}},
+  {"id": "CS2_38", "public_id": "entity_0005", "physical": {"nominal_capacity_Ah": 1.1, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}},
+  {"id": "CX2_33", "public_id": "entity_0001", "physical": {"nominal_capacity_Ah": 1.35, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}},
+  {"id": "CX2_34", "public_id": "entity_0004", "physical": {"nominal_capacity_Ah": 1.35, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}},
+  {"id": "CX2_35", "public_id": "entity_0008", "physical": {"nominal_capacity_Ah": 1.35, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}},
+  {"id": "CX2_36", "public_id": "entity_0003", "physical": {"nominal_capacity_Ah": 1.35, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}},
+  {"id": "CX2_37", "public_id": "entity_0007", "physical": {"nominal_capacity_Ah": 1.35, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}},
+  {"id": "CX2_38", "public_id": "entity_0009", "physical": {"nominal_capacity_Ah": 1.35, "charge_voltage_V": 4.2, "discharge_cutoff_V": 2.7}}
+ ]
+}

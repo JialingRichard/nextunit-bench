@@ -1,0 +1,20 @@
+{
+ "dataset": "HSF15",
+ "family": "HSF15",
+ "domain": "液压系统",
+ "task": "阀门状态四分类",
+ "mode": "batch",
+ "metric": "balanced_accuracy",
+ "aggregation": "entity_equal",
+ "prediction_values": [0, 1, 2, 3],
+ "unit": "",
+ "split_type": "condition_holdout",
+ "n_folds": 3,
+ "stream_layout": null,
+ "development_auxiliary": false,
+ "entities": [
+  {"id": "cooler_3", "public_id": "entity_0003", "physical": {}},
+  {"id": "cooler_20", "public_id": "entity_0002", "physical": {}},
+  {"id": "cooler_100", "public_id": "entity_0001", "physical": {}}
+ ]
+}

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nextunit-bench"
+version = "1.0.0.dev0"
+description = "Deployment-style PHM benchmark for agents and methods"
+readme = "README.md"
+requires-python = ">=3.12"
+# Code is MIT; the benchmark definition files shipped as package data are CC BY 4.0.
+license = "MIT AND CC-BY-4.0"
+license-files = ["LICENSE", "LICENSE-docs"]
+# Pinned at M3 (evaluator) and M5 (self-check).
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["nextunit*"]
+
+[tool.setuptools.package-data]
+nextunit = ["benchmark/**/*", "selfcheck/constant_artifact/*", "data/sources.json"]

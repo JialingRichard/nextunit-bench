@@ -1,0 +1,36 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{newtxtext,newtxmath}
+\usetikzlibrary{arrows.meta,positioning,fit,backgrounds}
+\definecolor{acc}{HTML}{0072B2}
+\begin{document}
+\fontsize{7.5}{8.8}\selectfont
+\begin{tikzpicture}[
+  box/.style={draw=black,thick,rectangle,rounded corners=1pt,align=center,text width=3.45cm,minimum height=0.8cm,inner sep=2pt,fill=white},
+  hid/.style={box,draw=black!70,fill=black!6},
+  key/.style={box,draw=acc,fill=acc!10,very thick},
+  arr/.style={-{Stealth[length=4pt]},thick},
+  lab/.style={font=\fontsize{6.5}{7.5}\selectfont\itshape,text=black!70}]
+% left column: visible to agent
+\node[box] (task) at (0,0) {\textbf{Task description}\\[-1pt]{\scriptsize inputs, target, history, metric, physics; no dataset name}};
+\node[box,minimum height=0.65cm,text width=2.9cm] (dev) at (0.28,-1.45) {\textbf{Dev units + labels}};
+\node[key] (agent) at (0,-3.0) {\textbf{Agent, 2 h sandbox}\\[-1pt]{\scriptsize shell, Python, web (general knowledge)}};
+\node[key] (pred) at (0,-4.65) {\textbf{Sealed executable predictor}\\[-1pt]{\scriptsize single entry point}};
+% right column: hidden
+\node[hid] (hu) at (4.6,-0.7) {\textbf{Hidden units}\\[-1pt]{\scriptsize + hidden labels, scoring code}};
+\node[box] (ev) at (4.6,-3.0) {\textbf{Evaluator re-runs on each hidden unit}\\[-1pt]{\scriptsize offline, fresh process; streaming or batch}};
+\node[box,draw=acc,very thick] (S) at (4.6,-4.65) {\textbf{Score $S$}\\[-1pt]{\scriptsize error removed vs.\ fixed baseline}};
+% dashed hidden region
+\begin{scope}[on background layer]
+\node[draw=black,dash pattern=on 3pt off 2pt,thick,rounded corners=3pt,fit=(hu)(ev)(S),inner xsep=5pt,inner ysep=7pt,fill=black!2] (H) {};
+\end{scope}
+\node[lab,anchor=south west] at ([xshift=2pt]H.north west) {Never seen by the agent};
+% arrows
+\draw[arr] (task.south -| -1.5,0) -- (-1.5,-2.45);
+\draw[arr] (dev.south -| 0.6,0) -- (0.6,-2.45);
+\draw[arr] (agent) -- (pred);
+\draw[arr,acc] (pred.east) -- node[above,font=\fontsize{6.5}{7.5}\selectfont,text=acc,pos=0.5]{seal} (2.3,-4.65) -- (2.3,-3.0) -- (ev.west);
+\draw[arr] (hu) -- (ev);
+\draw[arr] (ev) -- (S);
+\node[lab,anchor=north] at ([yshift=-2pt]pred.south) {Visible to the agent};
+\end{tikzpicture}
+\end{document}

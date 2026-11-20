@@ -1,0 +1,27 @@
+{
+ "dataset": "SEU",
+ "family": "SEU",
+ "domain": "齿轮传动",
+ "task": "故障分类",
+ "mode": "batch",
+ "metric": "accuracy",
+ "aggregation": "entity_equal",
+ "prediction_values": [0, 1, 2, 3, 4],
+ "unit": "",
+ "split_type": "condition_holdout",
+ "n_folds": 2,
+ "stream_layout": null,
+ "development_auxiliary": false,
+ "entities": [
+  {"id": "condition_20_0_record_00", "public_id": "entity_0006", "physical": {"转速_Hz": 20, "负载控制_V": 0}},
+  {"id": "condition_20_0_record_01", "public_id": "entity_0001", "physical": {"转速_Hz": 20, "负载控制_V": 0}},
+  {"id": "condition_20_0_record_02", "public_id": "entity_0007", "physical": {"转速_Hz": 20, "负载控制_V": 0}},
+  {"id": "condition_20_0_record_03", "public_id": "entity_0009", "physical": {"转速_Hz": 20, "负载控制_V": 0}},
+  {"id": "condition_20_0_record_04", "public_id": "entity_0004", "physical": {"转速_Hz": 20, "负载控制_V": 0}},
+  {"id": "condition_30_2_record_00", "public_id": "entity_0003", "physical": {"转速_Hz": 30, "负载控制_V": 2}},
+  {"id": "condition_30_2_record_01", "public_id": "entity_0002", "physical": {"转速_Hz": 30, "负载控制_V": 2}},
+  {"id": "condition_30_2_record_02", "public_id": "entity_0005", "physical": {"转速_Hz": 30, "负载控制_V": 2}},
+  {"id": "condition_30_2_record_03", "public_id": "entity_0008", "physical": {"转速_Hz": 30, "负载控制_V": 2}},
+  {"id": "condition_30_2_record_04", "public_id": "entity_0010", "physical": {"转速_Hz": 30, "负载控制_V": 2}}
+ ]
+}

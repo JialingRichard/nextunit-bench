@@ -1,0 +1,1798 @@
+{
+ "AHU21": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "AHU1.xlsx",
+      "url": "https://data.mendeley.com/public-files/datasets/jkw85sm4v4/files/bcf67016-890d-44ea-9438-30a923711fe9/file_downloaded",
+      "bytes": 6614970,
+      "sha256": "ed51c373f25b4892610402fdd553e75a7e43342657b8759b863681dd0909e9c3",
+      "action": "place",
+      "to": "AHU21/data/AHU1.xlsx"
+     },
+     {
+      "name": "AHU18.xlsx",
+      "url": "https://data.mendeley.com/public-files/datasets/jkw85sm4v4/files/fa29ec0a-69e6-46d8-b8da-9b22f1ffa78e/file_downloaded",
+      "bytes": 6045715,
+      "sha256": "1aec89da0425959412a2891419280db035046dbd8d541968acb23d9dc65d59f7",
+      "action": "place",
+      "to": "AHU21/data/AHU18.xlsx"
+     },
+     {
+      "name": "AHU2.xlsx",
+      "url": "https://data.mendeley.com/public-files/datasets/jkw85sm4v4/files/80707ccc-c9a3-4fae-888c-dd73b2ebce06/file_downloaded",
+      "bytes": 1526394,
+      "sha256": "814f18e2299a7432af143f33d3b5d4711d23246c8cc25225d65d1f2efb73128a",
+      "action": "place",
+      "to": "AHU21/data/AHU2.xlsx"
+     },
+     {
+      "name": "AHU23.xlsx",
+      "url": "https://data.mendeley.com/public-files/datasets/jkw85sm4v4/files/55812f40-9b2b-414f-b396-5cd781fba09c/file_downloaded",
+      "bytes": 6129279,
+      "sha256": "0ce2955409d78371872234ff9f0b6cc2a6de16d59d0851a00083b7d3c8de7274",
+      "action": "place",
+      "to": "AHU21/data/AHU23.xlsx"
+     },
+     {
+      "name": "AHU24.xlsx",
+      "url": "https://data.mendeley.com/public-files/datasets/jkw85sm4v4/files/13e6ab01-15e3-44f1-9fcf-7f7f4d051341/file_downloaded",
+      "bytes": 6368430,
+      "sha256": "fb91fcb0e4fea1a44247e8201b1b57d917502d17e01f16a7b445eac978685cd1",
+      "action": "place",
+      "to": "AHU21/data/AHU24.xlsx"
+     },
+     {
+      "name": "AHU8.xlsx",
+      "url": "https://data.mendeley.com/public-files/datasets/jkw85sm4v4/files/7621086b-6b16-48f6-a695-3de15c27256a/file_downloaded",
+      "bytes": 1526318,
+      "sha256": "131b489a74f1edc5a180c36338a09ecaaf61820184ac93ebedfec127b3a171c8",
+      "action": "place",
+      "to": "AHU21/data/AHU8.xlsx"
+     }
+    ]
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "AHU21.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/2021%20AHU%20Fault%20Detection/AHU21.zip",
+      "bytes": 22676422,
+      "md5": "f335de6d369892a87b97a71c0322ebea",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "BACKBLAZE": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "data_Q4_2024.zip",
+      "url": "https://f001.backblazeb2.com/file/Backblaze-Hard-Drive-Data/data_Q4_2024.zip",
+      "bytes": 1066033183,
+      "sha256": "5bbaab6be27a49b0edef76300fbbd0f1fdf58cec932cc797840976a8c7daaab4",
+      "action": "unpack",
+      "to": "BACKBLAZE/"
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "CALCE": {
+  "routes": [
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "CALCE_CS2.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/2011%20CALCE%20Batteries%20Datasets/CALCE_CS2.zip",
+      "bytes": 103486474,
+      "md5": "7a7b5ca54d879ff08e45ba6ac01221c7",
+      "action": "unpack",
+      "to": ""
+     },
+     {
+      "name": "CALCE_CX2.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/2011%20CALCE%20Batteries%20Datasets/CALCE_CX2.zip",
+      "bytes": 187705956,
+      "md5": "e6f3384adcdfdfca4c9cd8fae21de2f5",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": "Official files (https://web.calce.umd.edu/batteries/data/) are spreadsheets; the mirror converted them to CSV, which the converter reads. The mirror is the only route that reproduces the benchmark."
+ },
+ "CARE": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "CARE_To_Compare.zip",
+      "url": "https://zenodo.org/records/15846963/files/CARE_To_Compare.zip?download=1",
+      "bytes": 5503439673,
+      "md5": "2547b58c21ac8c242d13232860cf500c",
+      "action": "place",
+      "to": "CARE/CARE_To_Compare.zip"
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "CFRP": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "NASA_2_Composites.zip",
+      "url": "https://phm-datasets.s3.amazonaws.com/NASA/2.+Composites.zip",
+      "bytes": 4638330974,
+      "sha256": "5b0a4e71069f4133aeeb0b733ad66f3af9e17015a6f455daa74bc0939733e1e4",
+      "action": "extract",
+      "rules": [
+       {
+        "from": [],
+        "pattern": "*Layup1.zip",
+        "to": "CFRP/Layup1.zip"
+       },
+       {
+        "from": [],
+        "pattern": "*Layup2.zip",
+        "to": "CFRP/Layup2.zip"
+       },
+       {
+        "from": [],
+        "pattern": "*Layup3.zip",
+        "to": "CFRP/Layup3.zip"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "CMAPSS": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "NASA_6_Turbofan.zip",
+      "url": "https://phm-datasets.s3.amazonaws.com/NASA/6.+Turbofan+Engine+Degradation+Simulation+Data+Set.zip",
+      "bytes": 12429152,
+      "sha256": "c9c5dec12a945a82e8bb4446589d7fb3cc057b5e5d81fa1a12e25ee9912ad3b2",
+      "action": "extract",
+      "rules": [
+       {
+        "from": [
+         "6. Turbofan Engine Degradation Simulation Data Set/CMAPSSData.zip"
+        ],
+        "member": "train_FD004.txt",
+        "to": "CMAPSS/train/train_FD004.txt"
+       },
+       {
+        "from": [
+         "6. Turbofan Engine Degradation Simulation Data Set/CMAPSSData.zip"
+        ],
+        "member": "test_FD004.txt",
+        "to": "CMAPSS/test/test_FD004.txt"
+       },
+       {
+        "from": [
+         "6. Turbofan Engine Degradation Simulation Data Set/CMAPSSData.zip"
+        ],
+        "member": "RUL_FD004.txt",
+        "to": "CMAPSS/test/RUL_FD004.txt"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "CMAPSS_train.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/CMAPSS_train.zip",
+      "bytes": 7321140,
+      "md5": "48ef37556f1feb3b758e80f90c8bc55b",
+      "action": "unpack",
+      "to": ""
+     },
+     {
+      "name": "CMAPSS_test.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/CMAPSS_test.zip",
+      "bytes": 4699627,
+      "md5": "57ae84bbdbdefac8ed9a66b9f41e109c",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "CWRU": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "97.mat",
+      "url": "https://engineering.case.edu/sites/default/files/97.mat",
+      "bytes": 3903344,
+      "sha256": "16bf48babcf1c7ac224bc1a81cd9eafdb27e42d5cf559761907e067e8eeadf3c",
+      "action": "place",
+      "to": "CWRU/data/NormalBaseline/1797/Normal.mat"
+     },
+     {
+      "name": "98.mat",
+      "url": "https://engineering.case.edu/sites/default/files/98.mat",
+      "bytes": 7742720,
+      "sha256": "37e6612c05e65c415dcfa2ab27a3fda648a5863160fa898b884a14743044e045",
+      "action": "place",
+      "to": "CWRU/data/NormalBaseline/1772/Normal.mat"
+     },
+     {
+      "name": "99.mat",
+      "url": "https://engineering.case.edu/sites/default/files/99.mat",
+      "bytes": 15503928,
+      "sha256": "4b97e6b5361f45efb6951dc3b1aebcdb3b89cb69d0f96d6f5c297dd9f45eee75",
+      "action": "place",
+      "to": "CWRU/data/NormalBaseline/1750/Normal.mat"
+     },
+     {
+      "name": "100.mat",
+      "url": "https://engineering.case.edu/sites/default/files/100.mat",
+      "bytes": 7770624,
+      "sha256": "88a5990cb541320e91505a1d72139e1993500ffe6e292a451011667f4138ca78",
+      "action": "place",
+      "to": "CWRU/data/NormalBaseline/1730/Normal.mat"
+     },
+     {
+      "name": "105.mat",
+      "url": "https://engineering.case.edu/sites/default/files/105.mat",
+      "bytes": 2910768,
+      "sha256": "f80b0ea04fd06b372a0eaec7c056543ea37e4bb4727a5b173d2a5bacd2aa9cab",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1797/0.007-InnerRace.mat"
+     },
+     {
+      "name": "106.mat",
+      "url": "https://engineering.case.edu/sites/default/files/106.mat",
+      "bytes": 2928192,
+      "sha256": "e5cec7cdd138e6cd1deb9ed8634e5aaa9bc1bd7094ddc075bff606580eb6e883",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1772/0.007-InnerRace.mat"
+     },
+     {
+      "name": "107.mat",
+      "url": "https://engineering.case.edu/sites/default/files/107.mat",
+      "bytes": 2931672,
+      "sha256": "111ba8996a115684661a13c913bd74d8029a59294492f88aec7b03e175fdd388",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1750/0.007-InnerRace.mat"
+     },
+     {
+      "name": "108.mat",
+      "url": "https://engineering.case.edu/sites/default/files/108.mat",
+      "bytes": 2950416,
+      "sha256": "d415f0e65128bfa0b118c2051c988fb0dc6ce3e4c8aa45fdc5ad1d0967462e7d",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1730/0.007-InnerRace.mat"
+     },
+     {
+      "name": "118.mat",
+      "url": "https://engineering.case.edu/sites/default/files/118.mat",
+      "bytes": 2942112,
+      "sha256": "b00628f8dd8d1d930af77fa465d1e5cdb385fe259489053f91f3680bda7f640e",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1797/0.007-Ball.mat"
+     },
+     {
+      "name": "119.mat",
+      "url": "https://engineering.case.edu/sites/default/files/119.mat",
+      "bytes": 2914248,
+      "sha256": "bc72d9df7668219e004a0f711232b23ec0aed393eb9bd8f9f5483426f6b51330",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1772/0.007-Ball.mat"
+     },
+     {
+      "name": "120.mat",
+      "url": "https://engineering.case.edu/sites/default/files/120.mat",
+      "bytes": 2917752,
+      "sha256": "e0b7a584c49af52335ff0904a97d4afcf02d045625c582de63a7c85ce10b489c",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1750/0.007-Ball.mat"
+     },
+     {
+      "name": "121.mat",
+      "url": "https://engineering.case.edu/sites/default/files/121.mat",
+      "bytes": 2917752,
+      "sha256": "52f686e984ba8e9b04a047a57416271cdb322cee57ee105dce58926a24b966cb",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1730/0.007-Ball.mat"
+     },
+     {
+      "name": "130.mat",
+      "url": "https://engineering.case.edu/sites/default/files/130.mat",
+      "bytes": 2928192,
+      "sha256": "35a095307d0971477049b343a1b5981dde465a58fb7f233ad89b035068c1717d",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1797/0.007-OuterRace6.mat"
+     },
+     {
+      "name": "131.mat",
+      "url": "https://engineering.case.edu/sites/default/files/131.mat",
+      "bytes": 2938632,
+      "sha256": "7883f7b83beadc54b2f301767f9145ce07055707182fb0278fdf0a6bb53ce3cb",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1772/0.007-OuterRace6.mat"
+     },
+     {
+      "name": "132.mat",
+      "url": "https://engineering.case.edu/sites/default/files/132.mat",
+      "bytes": 2914248,
+      "sha256": "17a69ed5d2270b42532e678e35bbe2fa04a2cc413cf2bf9e88c7692de8662d18",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1750/0.007-OuterRace6.mat"
+     },
+     {
+      "name": "133.mat",
+      "url": "https://engineering.case.edu/sites/default/files/133.mat",
+      "bytes": 2942112,
+      "sha256": "53f076cb0d905cf46bffaee7736abce8224ffed777deed03c0c863d762a90c71",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1730/0.007-OuterRace6.mat"
+     },
+     {
+      "name": "169.mat",
+      "url": "https://engineering.case.edu/sites/default/files/169.mat",
+      "bytes": 2924712,
+      "sha256": "f5448673725c4ea2735fe7d3fe4b16ad82b217eac6b62c4bf351c4549b0a5229",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1797/0.014-InnerRace.mat"
+     },
+     {
+      "name": "170.mat",
+      "url": "https://engineering.case.edu/sites/default/files/170.mat",
+      "bytes": 2924712,
+      "sha256": "bcb73a5208b67265468232a2e342f53719850901671d0ee28494f3af97621f46",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1772/0.014-InnerRace.mat"
+     },
+     {
+      "name": "171.mat",
+      "url": "https://engineering.case.edu/sites/default/files/171.mat",
+      "bytes": 2924712,
+      "sha256": "63d0fdc1a68e64610ddfaf56a9c224d6137ab7b5c0d318eea1d542b9e5ffc029",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1750/0.014-InnerRace.mat"
+     },
+     {
+      "name": "172.mat",
+      "url": "https://engineering.case.edu/sites/default/files/172.mat",
+      "bytes": 2921232,
+      "sha256": "f75170ceef70d5da475671de0d2e52a0acd9b3883ad422b6deaf2907d888ba24",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1730/0.014-InnerRace.mat"
+     },
+     {
+      "name": "185.mat",
+      "url": "https://engineering.case.edu/sites/default/files/185.mat",
+      "bytes": 2924712,
+      "sha256": "5bea2c60f177215ba3ec4ae287faf745d7e14aed1a12efe9e37b27c27044bafc",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1797/0.014-Ball.mat"
+     },
+     {
+      "name": "186.mat",
+      "url": "https://engineering.case.edu/sites/default/files/186.mat",
+      "bytes": 2931672,
+      "sha256": "1b3b6f3ad38e891feaa8026fe957b34f62f9082785089cc74f6878acdfe88ec5",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1772/0.014-Ball.mat"
+     },
+     {
+      "name": "187.mat",
+      "url": "https://engineering.case.edu/sites/default/files/187.mat",
+      "bytes": 2928192,
+      "sha256": "0f1338cce89beb5c8d8e5e154579bc576354e7c7d1617ebd1759662c6f3100b2",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1750/0.014-Ball.mat"
+     },
+     {
+      "name": "188.mat",
+      "url": "https://engineering.case.edu/sites/default/files/188.mat",
+      "bytes": 2931672,
+      "sha256": "1981614324d653c2522bea68fd4fd87e337495b117d12596db67abd1e10e7443",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1730/0.014-Ball.mat"
+     },
+     {
+      "name": "197.mat",
+      "url": "https://engineering.case.edu/sites/default/files/197.mat",
+      "bytes": 2924712,
+      "sha256": "fa571b47cd942f9514a920b403fb7c053cd442bb2963a360a96d0f61432f03e9",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1797/0.014-OuterRace6.mat"
+     },
+     {
+      "name": "198.mat",
+      "url": "https://engineering.case.edu/sites/default/files/198.mat",
+      "bytes": 2931672,
+      "sha256": "dbd58e4585ca8f8332c708b15936987ec0990ca701359fd2483dae2719df5b49",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1772/0.014-OuterRace6.mat"
+     },
+     {
+      "name": "199.mat",
+      "url": "https://engineering.case.edu/sites/default/files/199.mat",
+      "bytes": 2924712,
+      "sha256": "ca4e6407fdb68845a6973da6028477911a62d018580063749fe956441be95cf2",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1750/0.014-OuterRace6.mat"
+     },
+     {
+      "name": "200.mat",
+      "url": "https://engineering.case.edu/sites/default/files/200.mat",
+      "bytes": 2928192,
+      "sha256": "2526483d2701220a700df8e6c9db0c527641b0887225907f4096610dd7120f4b",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1730/0.014-OuterRace6.mat"
+     },
+     {
+      "name": "209.mat",
+      "url": "https://engineering.case.edu/sites/default/files/209.mat",
+      "bytes": 2931672,
+      "sha256": "9f723d6d9d2eba714c6dc50f99321dffa73d8b1e4d3605675b2c2251511eff80",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1797/0.021-InnerRace.mat"
+     },
+     {
+      "name": "210.mat",
+      "url": "https://engineering.case.edu/sites/default/files/210.mat",
+      "bytes": 2917752,
+      "sha256": "596692397e77e129a00f7b7a61c4c3ffd6c7a59979b89039e7f70a7431cce1c7",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1772/0.021-InnerRace.mat"
+     },
+     {
+      "name": "211.mat",
+      "url": "https://engineering.case.edu/sites/default/files/211.mat",
+      "bytes": 2924712,
+      "sha256": "8296a02ee489c2d16cbd9fc278ca2e29b22475cec70ebe840558c78b6b743dc1",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1750/0.021-InnerRace.mat"
+     },
+     {
+      "name": "212.mat",
+      "url": "https://engineering.case.edu/sites/default/files/212.mat",
+      "bytes": 2928192,
+      "sha256": "bfe13761f545a26b217db897a12d27e16fec74306aa86ade8dbdc8ebe587c253",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1730/0.021-InnerRace.mat"
+     },
+     {
+      "name": "222.mat",
+      "url": "https://engineering.case.edu/sites/default/files/222.mat",
+      "bytes": 2928192,
+      "sha256": "fcc0ee740fa123b1f4683f555458891719efb2857afd9fdee63e8fde0ed14469",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1797/0.021-Ball.mat"
+     },
+     {
+      "name": "223.mat",
+      "url": "https://engineering.case.edu/sites/default/files/223.mat",
+      "bytes": 2921232,
+      "sha256": "7287410fd2217e3b332c5ab4732a68963be046d7d17bd40efa41cabe6a0514e5",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1772/0.021-Ball.mat"
+     },
+     {
+      "name": "224.mat",
+      "url": "https://engineering.case.edu/sites/default/files/224.mat",
+      "bytes": 2931672,
+      "sha256": "8a16894c2ff4d6bcdb9f4c345c0d5f13737b3bd6d15015d6b566c86e7a3ee7b7",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1750/0.021-Ball.mat"
+     },
+     {
+      "name": "225.mat",
+      "url": "https://engineering.case.edu/sites/default/files/225.mat",
+      "bytes": 2931672,
+      "sha256": "ece92fa141af03473fdfca80d00d9112472a20340224514e79979c6ddc97a6cf",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1730/0.021-Ball.mat"
+     },
+     {
+      "name": "234.mat",
+      "url": "https://engineering.case.edu/sites/default/files/234.mat",
+      "bytes": 2938632,
+      "sha256": "ebcbdb96612e8085bbdbf81f0e5e8e8a8d1a693d1ec559c4894f7792771aa9b2",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1797/0.021-OuterRace6.mat"
+     },
+     {
+      "name": "235.mat",
+      "url": "https://engineering.case.edu/sites/default/files/235.mat",
+      "bytes": 2928192,
+      "sha256": "667e4bf1f213f92d10dca71d494ad002d8fd22bfd8004b31a4c71ccf0d764b66",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1772/0.021-OuterRace6.mat"
+     },
+     {
+      "name": "236.mat",
+      "url": "https://engineering.case.edu/sites/default/files/236.mat",
+      "bytes": 2935152,
+      "sha256": "c411d6d9826cba8073430555dc833e05fcbe4c38535f3eb7f03c525ea6797589",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1750/0.021-OuterRace6.mat"
+     },
+     {
+      "name": "237.mat",
+      "url": "https://engineering.case.edu/sites/default/files/237.mat",
+      "bytes": 2928192,
+      "sha256": "233d1edb2daa963658369119e389e30f02aca551dd7bb028ab33e7ba63edfd20",
+      "action": "place",
+      "to": "CWRU/data/12DriveEndFault/1730/0.021-OuterRace6.mat"
+     }
+    ]
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "CWRU.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/CWRU.zip",
+      "bytes": 245351737,
+      "md5": "bd5d45b1ad05ec343099ed0a32e0de5e",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "HSF15": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "uci_447_hydraulic.zip",
+      "url": "https://archive.ics.uci.edu/static/public/447/condition+monitoring+of+hydraulic+systems.zip",
+      "bytes": 76601704,
+      "sha256": "24128aad2ee45eea7e6b63ebbd9992cdf25d0483a2cebefbfc13bc69079af1f2",
+      "action": "extract",
+      "rules": [
+       {
+        "from": [],
+        "member": "CE.txt",
+        "to": "HSF15/data/CE.txt"
+       },
+       {
+        "from": [],
+        "member": "CP.txt",
+        "to": "HSF15/data/CP.txt"
+       },
+       {
+        "from": [],
+        "member": "EPS1.txt",
+        "to": "HSF15/data/EPS1.txt"
+       },
+       {
+        "from": [],
+        "member": "FS1.txt",
+        "to": "HSF15/data/FS1.txt"
+       },
+       {
+        "from": [],
+        "member": "FS2.txt",
+        "to": "HSF15/data/FS2.txt"
+       },
+       {
+        "from": [],
+        "member": "PS1.txt",
+        "to": "HSF15/data/PS1.txt"
+       },
+       {
+        "from": [],
+        "member": "PS2.txt",
+        "to": "HSF15/data/PS2.txt"
+       },
+       {
+        "from": [],
+        "member": "PS3.txt",
+        "to": "HSF15/data/PS3.txt"
+       },
+       {
+        "from": [],
+        "member": "PS4.txt",
+        "to": "HSF15/data/PS4.txt"
+       },
+       {
+        "from": [],
+        "member": "PS5.txt",
+        "to": "HSF15/data/PS5.txt"
+       },
+       {
+        "from": [],
+        "member": "PS6.txt",
+        "to": "HSF15/data/PS6.txt"
+       },
+       {
+        "from": [],
+        "member": "SE.txt",
+        "to": "HSF15/data/SE.txt"
+       },
+       {
+        "from": [],
+        "member": "TS1.txt",
+        "to": "HSF15/data/TS1.txt"
+       },
+       {
+        "from": [],
+        "member": "TS2.txt",
+        "to": "HSF15/data/TS2.txt"
+       },
+       {
+        "from": [],
+        "member": "TS3.txt",
+        "to": "HSF15/data/TS3.txt"
+       },
+       {
+        "from": [],
+        "member": "TS4.txt",
+        "to": "HSF15/data/TS4.txt"
+       },
+       {
+        "from": [],
+        "member": "VS1.txt",
+        "to": "HSF15/data/VS1.txt"
+       },
+       {
+        "from": [],
+        "member": "profile.txt",
+        "to": "HSF15/data/profile.txt"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "HSF15.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/2015%20UCI%20-%20Predictive%20Maintenance%20Of%20Hydraulics%20System/HSF15.zip",
+      "bytes": 89199346,
+      "md5": "8ee67383f01223721a0055a27365cfe8",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "IMS": {
+  "routes": [
+   {
+    "name": "official",
+    "manual": true,
+    "instructions": "Official archive https://phm-datasets.s3.amazonaws.com/NASA/4.+Bearings.zip (1.1 GB) holds IMS.7z (needs 7z) with a RAR inside for run 3 (needs unrar). Place 1st_test/* in <raw>/IMS/unit 1/, 2nd_test/* in <raw>/IMS/unit 2/, and 3rd_test/4th_test/txt/* in <raw>/IMS/unit 3/. Not verified against the mirror; the raw checksums decide.",
+    "files": []
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "IMS.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/IMS.zip",
+      "bytes": 1543489076,
+      "md5": "b00bf4a11d62ab6dfa60339f84ea805d",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "MATR": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "url": "https://data.matr.io/1/api/v1/file/5c86c0b5fa2ede00015ddf66/download",
+      "bytes": 3025320241,
+      "sha256": "9d928ab978f0e3c70b31cb833a749fedd35094d01af76475d69b40aa3497f5ba",
+      "action": "place",
+      "to": "FCLB19/data/2017-05-12_batchdata_updated_struct_errorcorrect.mat"
+     },
+     {
+      "name": "2017-06-30_batchdata_updated_struct_errorcorrect.mat",
+      "url": "https://data.matr.io/1/api/v1/file/5c86bf13fa2ede00015ddd82/download",
+      "bytes": 2007331155,
+      "sha256": "63ab200d09ecb237fee5ef3a5c5db76e3212e3206a0bd92f769e1427fed338b8",
+      "action": "place",
+      "to": "FCLB19/data/2017-06-30_batchdata_updated_struct_errorcorrect.mat"
+     },
+     {
+      "name": "2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+      "url": "https://data.matr.io/1/api/v1/file/5c86bd64fa2ede00015ddbb2/download",
+      "bytes": 3236690412,
+      "sha256": "62c30e413b63e6144720e016deed3661fac8468641794a5807b123fe84717998",
+      "action": "place",
+      "to": "FCLB19/data/2018-04-12_batchdata_updated_struct_errorcorrect.mat"
+     }
+    ]
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "FCLB19.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/2019%20Fast%20charge%20lithium%20batteries/FCLB19.zip",
+      "bytes": 5281067683,
+      "md5": "e33ebf4332c5b0763b1cc4df63e4ec02",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "MATWI": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "Set1.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269921",
+      "bytes": 1105412298,
+      "md5": "a2146e24541dfad50a1bb5e04c27189e",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set10.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269918",
+      "bytes": 1049712317,
+      "md5": "f9ccbe5bf7bf203ba3b3e30ee00460af",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set11.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269903",
+      "bytes": 1144815047,
+      "md5": "269fc81d3525ea05bd9fa4e4f7c473df",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set12.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269922",
+      "bytes": 652592270,
+      "md5": "c84bf548ffb3406207fefc6f5791783d",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set13.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269908",
+      "bytes": 577984112,
+      "md5": "04062e5e7608f9ac3115e066dcdec401",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set14.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269911",
+      "bytes": 1737876457,
+      "md5": "0e60cc000385c306597e77f29245d7f1",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set15.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269906",
+      "bytes": 572787459,
+      "md5": "d42a2f4bd6b89d9d438ca8d960e1769d",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set16.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269917",
+      "bytes": 1617750491,
+      "md5": "765ee49b258990bccc79f37da8328610",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set17.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269910",
+      "bytes": 1193429136,
+      "md5": "57e0aac68530083b91d4e29b627afcb6",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set2.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269907",
+      "bytes": 1085681052,
+      "md5": "7027f20a56a1fb56cc64f8c3d5dc8d3a",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set3.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269914",
+      "bytes": 1159612877,
+      "md5": "1effc56abd9aba5f8b582b90e1c90de8",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set4.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269920",
+      "bytes": 1102899855,
+      "md5": "5c0ff0b01ee465989537c2bde5bd5e0c",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set5.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269916",
+      "bytes": 792801868,
+      "md5": "707dc14e9417e5cf8900a059335a3329",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set6.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269919",
+      "bytes": 1970865899,
+      "md5": "42ad09774f402ce9b368a013197638ce",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set7.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269915",
+      "bytes": 1124254738,
+      "md5": "89fd4a47f9ce6ae14a638806ea368e3c",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set8.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269913",
+      "bytes": 1078240636,
+      "md5": "c82e23314ed28090821a753a9ca1530b",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "Set9.zip",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269904",
+      "bytes": 1081104108,
+      "md5": "68fd3a3b1337b36fa413a05da210ce98",
+      "action": "unpack",
+      "to": "MATWI/"
+     },
+     {
+      "name": "labels.csv",
+      "url": "https://rdr.kuleuven.be/api/access/datafile/269912",
+      "bytes": 547669,
+      "md5": "314fa8c1ff769a3e3c745945e31e1bc8",
+      "action": "place",
+      "to": "MATWI/labels.csv"
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "MIMII_DUE": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "dev_data_fan.zip",
+      "url": "https://zenodo.org/api/records/4740355/files/dev_data_fan.zip/content",
+      "bytes": 1072486301,
+      "md5": "2fd8c081d1adf559372763f204fd154f",
+      "action": "unpack",
+      "to": "MIMII_DUE/"
+     },
+     {
+      "name": "dev_data_gearbox.zip",
+      "url": "https://zenodo.org/api/records/4740355/files/dev_data_gearbox.zip/content",
+      "bytes": 1200236895,
+      "md5": "16a22870056194a1da6ace2f1f5b42b5",
+      "action": "unpack",
+      "to": "MIMII_DUE/"
+     },
+     {
+      "name": "dev_data_pump.zip",
+      "url": "https://zenodo.org/api/records/4740355/files/dev_data_pump.zip/content",
+      "bytes": 1077021452,
+      "md5": "8c7090f0974336404070315a1e1445f4",
+      "action": "unpack",
+      "to": "MIMII_DUE/"
+     },
+     {
+      "name": "dev_data_slider.zip",
+      "url": "https://zenodo.org/api/records/4740355/files/dev_data_slider.zip/content",
+      "bytes": 1086886830,
+      "md5": "788d8942aae1f8da4e851d16946b05ab",
+      "action": "unpack",
+      "to": "MIMII_DUE/"
+     },
+     {
+      "name": "dev_data_valve.zip",
+      "url": "https://zenodo.org/api/records/4740355/files/dev_data_valve.zip/content",
+      "bytes": 1070937861,
+      "md5": "bc456bef6bc28decc1f9e74ca11480c3",
+      "action": "unpack",
+      "to": "MIMII_DUE/"
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "NB1": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "NASA_5_Battery.zip",
+      "url": "https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip",
+      "bytes": 209708670,
+      "action": "extract",
+      "rules": [
+       {
+        "from": [
+         "5. Battery Data Set/1. BatteryAgingARC-FY08Q4.zip"
+        ],
+        "member": "B0005.mat",
+        "to": "NB1/data/B0005.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/1. BatteryAgingARC-FY08Q4.zip"
+        ],
+        "member": "B0006.mat",
+        "to": "NB1/data/B0006.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/1. BatteryAgingARC-FY08Q4.zip"
+        ],
+        "member": "B0007.mat",
+        "to": "NB1/data/B0007.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/1. BatteryAgingARC-FY08Q4.zip"
+        ],
+        "member": "B0018.mat",
+        "to": "NB1/data/B0018.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/2. BatteryAgingARC_25_26_27_28_P1.zip"
+        ],
+        "member": "B0025.mat",
+        "to": "NB1/data/B0025.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/2. BatteryAgingARC_25_26_27_28_P1.zip"
+        ],
+        "member": "B0026.mat",
+        "to": "NB1/data/B0026.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/2. BatteryAgingARC_25_26_27_28_P1.zip"
+        ],
+        "member": "B0027.mat",
+        "to": "NB1/data/B0027.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/2. BatteryAgingARC_25_26_27_28_P1.zip"
+        ],
+        "member": "B0028.mat",
+        "to": "NB1/data/B0028.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0029.mat",
+        "to": "NB1/data/B0029.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0030.mat",
+        "to": "NB1/data/B0030.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0031.mat",
+        "to": "NB1/data/B0031.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0032.mat",
+        "to": "NB1/data/B0032.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0033.mat",
+        "to": "NB1/data/B0033.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0034.mat",
+        "to": "NB1/data/B0034.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0036.mat",
+        "to": "NB1/data/B0036.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0038.mat",
+        "to": "NB1/data/B0038.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0039.mat",
+        "to": "NB1/data/B0039.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0040.mat",
+        "to": "NB1/data/B0040.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0041.mat",
+        "to": "NB1/data/B0041.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0042.mat",
+        "to": "NB1/data/B0042.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0043.mat",
+        "to": "NB1/data/B0043.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/3. BatteryAgingARC_25-44.zip"
+        ],
+        "member": "B0044.mat",
+        "to": "NB1/data/B0044.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/4. BatteryAgingARC_45_46_47_48.zip"
+        ],
+        "member": "B0045.mat",
+        "to": "NB1/data/B0045.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/4. BatteryAgingARC_45_46_47_48.zip"
+        ],
+        "member": "B0046.mat",
+        "to": "NB1/data/B0046.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/4. BatteryAgingARC_45_46_47_48.zip"
+        ],
+        "member": "B0047.mat",
+        "to": "NB1/data/B0047.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/4. BatteryAgingARC_45_46_47_48.zip"
+        ],
+        "member": "B0048.mat",
+        "to": "NB1/data/B0048.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/5. BatteryAgingARC_49_50_51_52.zip"
+        ],
+        "member": "B0049.mat",
+        "to": "NB1/data/B0049.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/5. BatteryAgingARC_49_50_51_52.zip"
+        ],
+        "member": "B0050.mat",
+        "to": "NB1/data/B0050.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/5. BatteryAgingARC_49_50_51_52.zip"
+        ],
+        "member": "B0051.mat",
+        "to": "NB1/data/B0051.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/5. BatteryAgingARC_49_50_51_52.zip"
+        ],
+        "member": "B0052.mat",
+        "to": "NB1/data/B0052.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/6. BatteryAgingARC_53_54_55_56.zip"
+        ],
+        "member": "B0053.mat",
+        "to": "NB1/data/B0053.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/6. BatteryAgingARC_53_54_55_56.zip"
+        ],
+        "member": "B0054.mat",
+        "to": "NB1/data/B0054.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/6. BatteryAgingARC_53_54_55_56.zip"
+        ],
+        "member": "B0055.mat",
+        "to": "NB1/data/B0055.mat"
+       },
+       {
+        "from": [
+         "5. Battery Data Set/6. BatteryAgingARC_53_54_55_56.zip"
+        ],
+        "member": "B0056.mat",
+        "to": "NB1/data/B0056.mat"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "NB1.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/NB1.zip",
+      "bytes": 198533019,
+      "md5": "dfa40e2ab9dadbcd48b45136fcae02be",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "NB14": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "NASA_11_Randomized_Battery.zip",
+      "url": "https://phm-datasets.s3.amazonaws.com/NASA/11.+Randomized+Battery+Usage+Data+Set.zip",
+      "bytes": 1065821095,
+      "action": "extract",
+      "rules": [
+       {
+        "from": [
+         "11. Randomized Battery Usage Data Set/1. Battery_Uniform_Distribution_Charge_Discharge_DataSet_2Post.zip"
+        ],
+        "prefix": "Battery_Uniform_Distribution_Charge_Discharge_DataSet_2Post/data/Matlab/",
+        "to": "NB14/Battery_Uniform_Distribution_Charge_Discharge_DataSet_2Post/",
+        "pattern": "RW*.mat"
+       },
+       {
+        "from": [
+         "11. Randomized Battery Usage Data Set/2. Battery_Uniform_Distribution_Discharge_Room_Temp_DataSet_2Post.zip"
+        ],
+        "prefix": "Battery_Uniform_Distribution_Discharge_Room_Temp_DataSet_2Post/data/Matlab/",
+        "to": "NB14/Battery_Uniform_Distribution_Discharge_Room_Temp_DataSet_2Post/",
+        "pattern": "RW*.mat"
+       },
+       {
+        "from": [
+         "11. Randomized Battery Usage Data Set/3. Battery_Uniform_Distribution_Variable_Charge_Room_Temp_DataSet_2Post.zip"
+        ],
+        "prefix": "Battery_Uniform_Distribution_Variable_Charge_Room_Temp_DataSet_2Post/data/Matlab/",
+        "to": "NB14/Battery_Uniform_Distribution_Variable_Charge_Room_Temp_DataSet_2Post/",
+        "pattern": "RW*.mat"
+       },
+       {
+        "from": [
+         "11. Randomized Battery Usage Data Set/4. RW_Skewed_High_40C_DataSet_2Post.zip"
+        ],
+        "prefix": "RW_Skewed_High_40C_DataSet_2Post/data/Matlab/",
+        "to": "NB14/RW_Skewed_High_40C_DataSet_2Post/",
+        "pattern": "RW*.mat"
+       },
+       {
+        "from": [
+         "11. Randomized Battery Usage Data Set/5. RW_Skewed_High_Room_Temp_DataSet_2Post.zip"
+        ],
+        "prefix": "RW_Skewed_High_Room_Temp_DataSet_2Post/data/Matlab/",
+        "to": "NB14/RW_Skewed_High_Room_Temp_DataSet_2Post/",
+        "pattern": "RW*.mat"
+       },
+       {
+        "from": [
+         "11. Randomized Battery Usage Data Set/6. RW_Skewed_Low_40C_DataSet_2Post.zip"
+        ],
+        "prefix": "RW_Skewed_Low_40C_DataSet_2Post/data/Matlab/",
+        "to": "NB14/RW_Skewed_Low_40C_DataSet_2Post/",
+        "pattern": "RW*.mat"
+       },
+       {
+        "from": [
+         "11. Randomized Battery Usage Data Set/7. RW_Skewed_Low_Room_Temp_DataSet_2Post.zip"
+        ],
+        "prefix": "RW_Skewed_Low_Room_Temp_DataSet_2Post/data/Matlab/",
+        "to": "NB14/RW_Skewed_Low_Room_Temp_DataSet_2Post/",
+        "pattern": "RW*.mat"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "NB14.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/2014%20NASA%20Randomized%20Battery%20Usage%20Data%20Set/NB14.zip",
+      "bytes": 780091136,
+      "md5": "3c7b74465f8961bdd12a1e99df76c101",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "NCMAPSS": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "NASA_17_Turbofan2.zip",
+      "url": "https://phm-datasets.s3.amazonaws.com/NASA/17.+Turbofan+Engine+Degradation+Simulation+Data+Set+2.zip",
+      "bytes": 15760443389,
+      "action": "extract",
+      "rules": [
+       {
+        "from": [
+         "17. Turbofan Engine Degradation Simulation Data Set 2/data_set.zip"
+        ],
+        "member": "data_set/N-CMAPSS_DS02-006.h5",
+        "to": "NCMAPSS/data/N-CMAPSS_DS02-006.h5"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "NCMAPSS.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/NCMAPSS.zip",
+      "bytes": 14731292999,
+      "md5": "ce971aede97e824c6531c5e41e1db897",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "PHM10": {
+  "routes": [
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "PHM10_train.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/2010%20PHM%20CNC%20MILLING/PHM10_train.zip",
+      "bytes": 3329224892,
+      "md5": "663f0980b9058a2c83a6bf110054215c",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": "The official download (PHM Society 2010 data challenge) no longer works."
+ },
+ "PHME20": {
+  "routes": [
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "PHME20.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/2020%20PHME%20Data%20Competition/PHME20.zip",
+      "bytes": 1020728,
+      "md5": "20efd9a0a415b6309f999cd827e5be14",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": "The official download (phmeurope.org/2020) no longer works."
+ },
+ "PRONOSTIA": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "NASA_10_FEMTO.zip",
+      "url": "https://phm-datasets.s3.amazonaws.com/NASA/10.+FEMTO+Bearing.zip",
+      "bytes": 1157035288,
+      "action": "extract",
+      "rules": [
+       {
+        "from": [
+         "10. FEMTO Bearing/FEMTOBearingDataSet.zip",
+         "Learning_set.zip"
+        ],
+        "prefix": "Learning_set/",
+        "pattern": "Bearing*/acc_*.csv",
+        "to": "PRONOSTIA/train/"
+       },
+       {
+        "from": [
+         "10. FEMTO Bearing/FEMTOBearingDataSet.zip",
+         "Test_set.zip"
+        ],
+        "prefix": "Test_set/",
+        "pattern": "Bearing*/acc_*.csv",
+        "to": "PRONOSTIA/test/"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "PRONOSTIA_train.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/Pronostia/PRONOSTIA_train.zip",
+      "bytes": 149003752,
+      "md5": "db8c0e11c04c40caace6662f1ca9ef4c",
+      "action": "unpack",
+      "to": ""
+     },
+     {
+      "name": "PRONOSTIA_test.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/Pronostia/PRONOSTIA_test.zip",
+      "bytes": 271489035,
+      "md5": "065ebaff68208e49b239edbb821666c1",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "PUBD16": {
+  "routes": [
+   {
+    "name": "official",
+    "manual": true,
+    "instructions": "Download the 32 per-bearing archives https://groups.uni-paderborn.de/kat/BearingDataCenter/<B>.rar for B in K001-K006, KA01, KA03-KA09, KA15, KA16, KA22, KA30, KB23, KB24, KB27, KI01, KI03-KI05, KI07, KI08, KI14, KI16-KI18, KI21 (5.4 GB; RAR format, needs unrar, 7z or bsdtar) and unpack each into <raw>/PUBD16/data/ so that files land in <raw>/PUBD16/data/<B>/. The official KB27 archive holds 80 measurements; this benchmark uses only the 35 that the PHMD mirror holds: delete every KB27 .mat file not listed in nextunit/benchmark/checksums/raw/PUBD16.sha256.",
+    "files": []
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "PUBD16.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/2016%20Paderborn%20University%20Dataset/PUBD16.zip",
+      "bytes": 9497845044,
+      "md5": "e7099e6761f2b0ecc78dc5d49d466f53",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "SCANIA": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "test_labels.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data/test_labels.csv",
+      "bytes": 38682,
+      "sha256": "60f923051d4ba1bef4c81166cf9e8ca01daf3b7a29c73016c6f48a23dcfa0223",
+      "action": "place",
+      "to": "SCANIA/test_labels.csv"
+     },
+     {
+      "name": "test_operational_readouts.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data/test_operational_readouts.csv",
+      "bytes": 214897259,
+      "sha256": "81f2709cd339e0ff561f5fd3188d7f431680e32400bd788814880d7759615ba1",
+      "action": "place",
+      "to": "SCANIA/test_operational_readouts.csv"
+     },
+     {
+      "name": "test_specifications.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data/test_specifications.csv",
+      "bytes": 231658,
+      "sha256": "40ac8a111f6d5b416107ec1786f639766ecf1293a1c9c0c0dbf24f14c1c5d0e7",
+      "action": "place",
+      "to": "SCANIA/test_specifications.csv"
+     },
+     {
+      "name": "train_operational_readouts.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data/train_operational_readouts.csv",
+      "bytes": 1219209878,
+      "sha256": "e01cb0bd87dfab4c9dbad215d51d81282fc0d413be96d6f819ea872fb7a3c715",
+      "action": "place",
+      "to": "SCANIA/train_operational_readouts.csv"
+     },
+     {
+      "name": "train_specifications.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data/train_specifications.csv",
+      "bytes": 1081118,
+      "sha256": "47cc9a67aee19d5e2ee8620fe8e467490b2125bacc7787ce781ce9f3c1f0c38f",
+      "action": "place",
+      "to": "SCANIA/train_specifications.csv"
+     },
+     {
+      "name": "train_tte.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data/train_tte.csv",
+      "bytes": 345412,
+      "sha256": "d8c2379ed7c95a575dd869730b2b3b96d660317f49e57de300518ff3b08d53a5",
+      "action": "place",
+      "to": "SCANIA/train_tte.csv"
+     },
+     {
+      "name": "validation_labels.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data/validation_labels.csv",
+      "bytes": 38742,
+      "sha256": "ad876c95c3696f4cfca2d76212ad6bb3cac6b2d2950a4aeaf218ee8b1548d08c",
+      "action": "place",
+      "to": "SCANIA/validation_labels.csv"
+     },
+     {
+      "name": "validation_operational_readouts.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data/validation_operational_readouts.csv",
+      "bytes": 215593159,
+      "sha256": "1e1597eec866588c2ad95eb923555ad719c64b3697d9140f9cec6809349809af",
+      "action": "place",
+      "to": "SCANIA/validation_operational_readouts.csv"
+     },
+     {
+      "name": "validation_specifications.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data/validation_specifications.csv",
+      "bytes": 231765,
+      "sha256": "a31e832846538dd7a1829108b69420d9377dcd05d6446d8ac1270a974fc58ae2",
+      "action": "place",
+      "to": "SCANIA/validation_specifications.csv"
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "SEU": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "Health_20_0.csv",
+      "url": "https://raw.githubusercontent.com/cathysiyu/Mechanical-datasets/master/gearbox/gearset/Health_20_0.csv",
+      "bytes": 80323854,
+      "sha256": "ca04b9a073e16a2571cd4fe84f0deca6831214726111effc8a34cb25a79ed4bf",
+      "action": "place",
+      "to": "SEUGB17/gearset/Health_20_0.csv"
+     },
+     {
+      "name": "Chipped_20_0.csv",
+      "url": "https://raw.githubusercontent.com/cathysiyu/Mechanical-datasets/master/gearbox/gearset/Chipped_20_0.csv",
+      "bytes": 80055432,
+      "sha256": "dd6571174764b56c93524332ddb2beaaea7b5f36211e0579838f3453110909b2",
+      "action": "place",
+      "to": "SEUGB17/gearset/Chipped_20_0.csv"
+     },
+     {
+      "name": "Root_20_0.csv",
+      "url": "https://raw.githubusercontent.com/cathysiyu/Mechanical-datasets/master/gearbox/gearset/Root_20_0.csv",
+      "bytes": 80220486,
+      "sha256": "2494a32c2e0c1d5643ade15cdfb19a6da15983dfa439a72cd7fd07ecd2e07b44",
+      "action": "place",
+      "to": "SEUGB17/gearset/Root_20_0.csv"
+     },
+     {
+      "name": "Miss_20_0.csv",
+      "url": "https://raw.githubusercontent.com/cathysiyu/Mechanical-datasets/master/gearbox/gearset/Miss_20_0.csv",
+      "bytes": 80165741,
+      "sha256": "8f863a93b0e4137607e6459e23a1af7ed8457b9cac7fb917407e526537531275",
+      "action": "place",
+      "to": "SEUGB17/gearset/Miss_20_0.csv"
+     },
+     {
+      "name": "Surface_20_0.csv",
+      "url": "https://raw.githubusercontent.com/cathysiyu/Mechanical-datasets/master/gearbox/gearset/Surface_20_0.csv",
+      "bytes": 80115358,
+      "sha256": "f6dbf55ddf6a48d6aa894b81c85c9b28c4725fe1f77d8c3c29964ab9322d2c19",
+      "action": "place",
+      "to": "SEUGB17/gearset/Surface_20_0.csv"
+     },
+     {
+      "name": "Health_30_2.csv",
+      "url": "https://raw.githubusercontent.com/cathysiyu/Mechanical-datasets/master/gearbox/gearset/Health_30_2.csv",
+      "bytes": 80317583,
+      "sha256": "1fe71abc261df79e473f92b1059aafd28e018a8e39b04adebdc2a7d9873e184d",
+      "action": "place",
+      "to": "SEUGB17/gearset/Health_30_2.csv"
+     },
+     {
+      "name": "Chipped_30_2.csv",
+      "url": "https://raw.githubusercontent.com/cathysiyu/Mechanical-datasets/master/gearbox/gearset/Chipped_30_2.csv",
+      "bytes": 80257645,
+      "sha256": "2b6a9393d148fa2542c1318f131a4c27ff1ba4e3b6e0b5fddc3b76c16b1a41e9",
+      "action": "place",
+      "to": "SEUGB17/gearset/Chipped_30_2.csv"
+     },
+     {
+      "name": "Root_30_2.csv",
+      "url": "https://raw.githubusercontent.com/cathysiyu/Mechanical-datasets/master/gearbox/gearset/Root_30_2.csv",
+      "bytes": 80270482,
+      "sha256": "e51cb418911e637b5db3464e34ce9df28893eea7dbc8411cd308bde6d186d8f0",
+      "action": "place",
+      "to": "SEUGB17/gearset/Root_30_2.csv"
+     },
+     {
+      "name": "Miss_30_2.csv",
+      "url": "https://raw.githubusercontent.com/cathysiyu/Mechanical-datasets/master/gearbox/gearset/Miss_30_2.csv",
+      "bytes": 80290321,
+      "sha256": "55d4fb5de2b07dbcafe2014cd03b7170f78e8de4d63353c3ad9a555d9df91def",
+      "action": "place",
+      "to": "SEUGB17/gearset/Miss_30_2.csv"
+     },
+     {
+      "name": "Surface_30_2.csv",
+      "url": "https://raw.githubusercontent.com/cathysiyu/Mechanical-datasets/master/gearbox/gearset/Surface_30_2.csv",
+      "bytes": 80296794,
+      "sha256": "c698f1e2ddc4499bb008662d913548390238c47937d8caba0988420cbec7cce8",
+      "action": "place",
+      "to": "SEUGB17/gearset/Surface_30_2.csv"
+     }
+    ]
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "SEUGB17.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/2017%20SEU%20Gear%20and%20Bear/SEUGB17.zip",
+      "bytes": 484166779,
+      "md5": "bbe858efc098b1c02d055e5251afcd32",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "TEP": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "TEP_FaultFree_Testing.RData",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/3031240",
+      "bytes": 47327663,
+      "md5": "38ad9810fc871026157086ae2c2f0ee9",
+      "action": "place",
+      "to": "TEP/TEP_FaultFree_Testing.RData"
+     },
+     {
+      "name": "TEP_FaultFree_Training.RData",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/3031241",
+      "bytes": 24678017,
+      "md5": "ec126484534331f85001d8c4ebce6d17",
+      "action": "place",
+      "to": "TEP/TEP_FaultFree_Training.RData"
+     },
+     {
+      "name": "TEP_Faulty_Testing.RData",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/3031243",
+      "bytes": 836882037,
+      "md5": "556bdb64c83021bc0c5f92e427753565",
+      "action": "place",
+      "to": "TEP/TEP_Faulty_Testing.RData"
+     },
+     {
+      "name": "TEP_Faulty_Training.RData",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/3031242",
+      "bytes": 494063194,
+      "md5": "c5f594d54c47e620ff877feb58407fda",
+      "action": "place",
+      "to": "TEP/TEP_Faulty_Training.RData"
+     }
+    ]
+   }
+  ],
+  "note": "The paper took the same four files (identical MD5) from a Kaggle copy because Dataverse returned HTTP 403 at the time."
+ },
+ "THREEW": {
+  "routes": [
+   {
+    "name": "official",
+    "files": [
+     {
+      "name": "3w_dataset_2.0.0.zip",
+      "url": "https://ndownloader.figshare.com/files/55019255",
+      "bytes": 1794819830,
+      "md5": "2c23b87b60c5d19ed9cf9559efa6ffa7",
+      "action": "place",
+      "to": "THREEW/3w_dataset_2.0.0.zip"
+     }
+    ]
+   }
+  ],
+  "note": ""
+ },
+ "XJTU-SY": {
+  "routes": [
+   {
+    "name": "official",
+    "manual": true,
+    "instructions": "The official download (https://biaowang.tech/xjtu-sy-bearing-datasets) is a set of cloud-drive folders (Google Drive, MEGA, Baidu); it needs a browser. Unpack the six RAR volumes and move XJTU-SY_Bearing_Datasets/<condition>/BearingX_Y/ to <raw>/XJTU-SY/train/BearingX_Y/ for all 15 bearings.",
+    "files": []
+   },
+   {
+    "name": "mirror",
+    "kind": "PHMD mirror (third party: personal cloud storage of the PHMD library authors, no licence statement)",
+    "maintainer": "the PHMD project, https://github.com/dasolma/phmd",
+    "cite": "When this route is used, cite the original data publisher (docs/datasets.md) and PHMD: D. Solís-Martín, J. Galán-Páez, J. Borrego-Díaz, \"PHMD: An easy data access tool for prognosis and health management datasets\", SoftwareX 29 (2025) 102039, doi:10.1016/j.softx.2025.102039. Download each dataset once.",
+    "files": [
+     {
+      "name": "XJTU-SY.zip",
+      "url": "https://filedn.eu/loXpIrTnEJNpqcMnQVXex9m/PhmDatasets/2020%20XJTU-SY%20Bearing%20Datasets/XJTU-SY.zip",
+      "bytes": 5447622697,
+      "md5": "d36791e5331a35c1b47926cf9123ad6c",
+      "action": "unpack",
+      "to": ""
+     }
+    ]
+   }
+  ],
+  "note": ""
+ }
+}

@@ -1,0 +1,5 @@
+# Extra packages of the tool environment (data conversion, evaluator, self-check), on top of requirements.lock.
+# The converters' output bytes depend on these and on numpy, pandas and scipy; do not change versions.
+h5py==3.14.0
+pyreadr==0.5.6
+pyarrow==25.0.1

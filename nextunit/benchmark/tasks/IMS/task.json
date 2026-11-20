@@ -1,0 +1,21 @@
+{
+ "dataset": "IMS",
+ "family": "IMS",
+ "domain": "轴承",
+ "task": "剩余寿命回归",
+ "mode": "stream",
+ "metric": "mae",
+ "aggregation": "entity_equal",
+ "prediction_values": null,
+ "unit": "hour",
+ "split_type": "run_holdout",
+ "n_folds": 3,
+ "stream_layout": "manifest_with_flat_alias",
+ "development_auxiliary": false,
+ "entities": [
+  {"id": "run_1_bearing_3", "public_id": "entity_0003", "physical": {"转速_rpm": 2000, "径向载荷_lb": 6000, "采样率_Hz": 20000}},
+  {"id": "run_1_bearing_4", "public_id": "entity_0002", "physical": {"转速_rpm": 2000, "径向载荷_lb": 6000, "采样率_Hz": 20000}},
+  {"id": "run_2_bearing_1", "public_id": "entity_0001", "physical": {"转速_rpm": 2000, "径向载荷_lb": 6000, "采样率_Hz": 20000}},
+  {"id": "run_3_bearing_3", "public_id": "entity_0004", "physical": {"转速_rpm": 2000, "径向载荷_lb": 6000, "采样率_Hz": 20000}}
+ ]
+}

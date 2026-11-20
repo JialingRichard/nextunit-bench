@@ -1,0 +1,18 @@
+# Local state written while building or using the benchmark.
+# Raw downloads, prepared data, hidden labels, runs and sealed artifacts must
+# never be committed: they are dataset derivatives and contain hidden labels.
+/local/
+/runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+
+# Model files (reference predictors are retrained locally or fetched with hashes)
+*.pkl
+*.joblib
+*.pt

@@ -1,0 +1,25 @@
+{
+ "dataset": "BACKBLAZE",
+ "family": "BACKBLAZE",
+ "domain": "存储设备",
+ "task": "未来七天磁盘故障预警",
+ "mode": "stream",
+ "metric": "average_precision",
+ "aggregation": "pooled",
+ "prediction_values": null,
+ "unit": "",
+ "split_type": "temporal_entity_holdout",
+ "prediction_unit": "disk_cohort",
+ "physical_entity_counts": {"selected_disks_in_quarter": 30656, "by_cohort": {"development_cohort_0": 9914, "development_cohort_1": 9867, "development_cohort_2": 9783, "hidden_cohort_0": 10218, "hidden_cohort_1": 10173, "hidden_cohort_2": 10111}, "note": "entities列表为六个执行池，真实物理实体是disk_id对应的磁盘，不能将六个池称为六台设备。"},
+ "n_folds": 3,
+ "stream_layout": "flat",
+ "development_auxiliary": false,
+ "entities": [
+  {"id": "development_cohort_0", "public_id": "entity_0001", "physical": {}},
+  {"id": "development_cohort_1", "public_id": "entity_0003", "physical": {}},
+  {"id": "development_cohort_2", "public_id": "entity_0004", "physical": {}},
+  {"id": "hidden_cohort_0", "public_id": "entity_0005", "physical": {}},
+  {"id": "hidden_cohort_1", "public_id": "entity_0006", "physical": {}},
+  {"id": "hidden_cohort_2", "public_id": "entity_0002", "physical": {}}
+ ]
+}

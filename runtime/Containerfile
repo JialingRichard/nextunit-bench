@@ -1,0 +1,17 @@
+# Container recipe for the two environments (not built in the paper's runs, which used a host snapshot).
+#   /opt/runtime  predictors' runtime (requirements.lock), mounted read-only into the bwrap sandbox
+#   /opt/tools    tool environment (requirements.lock + tools.lock + this package)
+# Build:  podman build -f runtime/Containerfile -t nextunit-bench .
+# Export the image to a directory to use it as the sandbox runtime bundle (runtime/README.md).
+FROM docker.io/library/debian:bookworm-slim
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates curl git bubblewrap \
+    && rm -rf /var/lib/apt/lists/*
+COPY --from=ghcr.io/astral-sh/uv:0.11.12 /uv /usr/local/bin/uv
+ENV UV_PYTHON_INSTALL_DIR=/opt/python UV_LINK_MODE=copy UV_INDEX_STRATEGY=unsafe-best-match
+RUN uv python install 3.12.13
+COPY runtime/requirements.lock runtime/tools.lock /tmp/
+RUN uv venv --python 3.12.13 /opt/runtime && VIRTUAL_ENV=/opt/runtime uv pip sync /tmp/requirements.lock
+RUN uv venv --python 3.12.13 /opt/tools && VIRTUAL_ENV=/opt/tools uv pip sync /tmp/requirements.lock /tmp/tools.lock
+COPY . /opt/nextunit-bench
+RUN VIRTUAL_ENV=/opt/tools uv pip install --no-deps -e /opt/nextunit-bench
+WORKDIR /opt/nextunit-bench

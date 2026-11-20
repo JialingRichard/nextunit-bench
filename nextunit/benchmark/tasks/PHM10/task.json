@@ -1,0 +1,20 @@
+{
+ "dataset": "PHM10",
+ "family": "PHM2010",
+ "domain": "刀具加工",
+ "task": "刀具平均后刀面磨损估计",
+ "mode": "stream",
+ "metric": "mae",
+ "aggregation": "entity_equal",
+ "prediction_values": null,
+ "unit": "µm",
+ "split_type": "entity_kfold",
+ "n_folds": 3,
+ "stream_layout": "flat",
+ "development_auxiliary": false,
+ "entities": [
+  {"id": "c1", "public_id": "entity_0003", "physical": {"sampling_rate_hz": 50000, "spindle_rpm": 10400, "feed_mm_min": 1555, "radial_depth_mm": 0.125, "axial_depth_mm": 0.2, "flutes": 3}},
+  {"id": "c4", "public_id": "entity_0001", "physical": {"sampling_rate_hz": 50000, "spindle_rpm": 10400, "feed_mm_min": 1555, "radial_depth_mm": 0.125, "axial_depth_mm": 0.2, "flutes": 3}},
+  {"id": "c6", "public_id": "entity_0002", "physical": {"sampling_rate_hz": 50000, "spindle_rpm": 10400, "feed_mm_min": 1555, "radial_depth_mm": 0.125, "axial_depth_mm": 0.2, "flutes": 3}}
+ ]
+}

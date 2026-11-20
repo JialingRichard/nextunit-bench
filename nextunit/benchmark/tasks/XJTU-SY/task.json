@@ -1,0 +1,32 @@
+{
+ "dataset": "XJTU-SY",
+ "family": "XJTU-SY",
+ "domain": "轴承",
+ "task": "轴承剩余寿命",
+ "mode": "stream",
+ "metric": "mae",
+ "aggregation": "entity_equal",
+ "prediction_values": null,
+ "unit": "分钟",
+ "split_type": "entity_kfold",
+ "n_folds": 3,
+ "stream_layout": "flat",
+ "development_auxiliary": false,
+ "entities": [
+  {"id": "Bearing1_1", "public_id": "entity_0010", "physical": {}},
+  {"id": "Bearing1_2", "public_id": "entity_0004", "physical": {}},
+  {"id": "Bearing1_3", "public_id": "entity_0009", "physical": {}},
+  {"id": "Bearing1_4", "public_id": "entity_0003", "physical": {}},
+  {"id": "Bearing1_5", "public_id": "entity_0007", "physical": {}},
+  {"id": "Bearing2_1", "public_id": "entity_0001", "physical": {}},
+  {"id": "Bearing2_2", "public_id": "entity_0008", "physical": {}},
+  {"id": "Bearing2_3", "public_id": "entity_0005", "physical": {}},
+  {"id": "Bearing2_4", "public_id": "entity_0006", "physical": {}},
+  {"id": "Bearing2_5", "public_id": "entity_0012", "physical": {}},
+  {"id": "Bearing3_1", "public_id": "entity_0015", "physical": {}},
+  {"id": "Bearing3_2", "public_id": "entity_0014", "physical": {}},
+  {"id": "Bearing3_3", "public_id": "entity_0002", "physical": {}},
+  {"id": "Bearing3_4", "public_id": "entity_0013", "physical": {}},
+  {"id": "Bearing3_5", "public_id": "entity_0011", "physical": {}}
+ ]
+}

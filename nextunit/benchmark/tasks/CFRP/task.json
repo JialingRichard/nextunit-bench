@@ -1,0 +1,20 @@
+{
+ "dataset": "CFRP",
+ "family": "CFRP",
+ "domain": "复合材料结构",
+ "task": "刚度退化估计",
+ "mode": "stream",
+ "metric": "mae",
+ "aggregation": "entity_equal",
+ "prediction_values": null,
+ "unit": "stiffness degradation fraction",
+ "split_type": "entity_kfold",
+ "n_folds": 3,
+ "stream_layout": "flat",
+ "development_auxiliary": false,
+ "entities": [
+  {"id": "coupon_6271bb4dbf", "public_id": "entity_0003", "physical": {"layup": 1}},
+  {"id": "coupon_d487b1328f", "public_id": "entity_0002", "physical": {"layup": 1}},
+  {"id": "coupon_3a723673c9", "public_id": "entity_0001", "physical": {"layup": 2}}
+ ]
+}

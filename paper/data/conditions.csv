@@ -1,0 +1,57 @@
+condition,replicate,agent,harness,setting,budget_h,toolkit,plan_source,plan_kind,trajectories,datasets,delivered,unresolved,S,used_in
+Astra,1,Astra,Codex,,2,none,none,none,58,24,58,0,42.96,"Fig. 2, 4, 7; Tables II, V; Fig. 5a control (mean with replicate 2)"
+Kimi,1,Kimi,Codex,,2,none,none,none,58,24,57,0,39.75,"Fig. 2, 7; Tables II, V; Fig. 5a control"
+DeepSeek,1,DeepSeek,Codex,,2,none,none,none,58,24,58,0,36.13,"Fig. 2, 7; Tables II, V"
+Luna,1,Luna,Codex,,2,none,none,none,58,24,57,0,30.84,"Fig. 2, 4, 5b (gap line), 7; Tables II, V; Fig. 5a control"
+Luna,2,Luna,Codex,,2,none,none,none,58,24,58,0,30.67,Fig. 5a control; Fig. 4 sensitivity; text (re-runs)
+Astra,2,Astra,Codex,,2,none,none,none,58,24,58,0,44.18,"Fig. 5a control; Fig. 4 (plan author of Astra's plans), 6b; text"
+Kimi,2,Kimi,Codex,,2,none,none,none,58,24,56,0,38.55,Fig. 5a control; text (re-runs)
+Luna + AWS skill,1,Luna,Codex,,2,AWS skill,none,none,58,24,57,0,28.32,Fig. 5a; Table IV
+Luna + tsfresh,1,Luna,Codex,,2,tsfresh,none,none,58,24,57,0,31.99,Fig. 5a; Table IV
+Luna + PdM server,1,Luna,Codex,,2,PdM server,none,none,25,9,25,0,39.78,Fig. 5a; Table IV
+Luna + PyOD,1,Luna,Codex,,2,PyOD,none,none,10,4,10,0,33.14,Fig. 5a; Table IV
+Luna + ProgPy,1,Luna,Codex,,2,ProgPy,none,none,35,15,35,0,20.1,Fig. 5a; Table IV
+Astra + AWS skill,1,Astra,Codex,,2,AWS skill,none,none,58,24,58,0,40.39,Fig. 5a; Table IV
+Astra + tsfresh,1,Astra,Codex,,2,tsfresh,none,none,58,24,58,0,38.78,Fig. 5a; Table IV
+Astra + PdM server,1,Astra,Codex,,2,PdM server,none,none,25,9,25,0,48.81,Fig. 5a; Table IV
+Astra + PyOD,1,Astra,Codex,,2,PyOD,none,none,10,4,10,0,41.59,Fig. 5a; Table IV
+Astra + ProgPy,1,Astra,Codex,,2,ProgPy,none,none,35,15,35,0,34.11,Fig. 5a; Table IV
+Luna + own components,1,Luna,Codex,,2,own components,none,none,58,24,58,0,32.48,Fig. 5a; Table IV
+Luna + own components and validation tools,1,Luna,Codex,,2,own components and validation tools,none,none,58,24,58,0,30.02,Fig. 5a; Table IV
+Kimi + own components,1,Kimi,Codex,,2,own components,none,none,58,24,55,0,36.36,Fig. 5a; Table IV
+Luna + AWS skill after first submission,1,Luna,Codex,,2,"AWS skill, after first submission",none,none,57,24,57,0,29.97,Fig. 5a; Table IV
+Luna (OpenCode),1,Luna,OpenCode,,2,none,none,none,58,24,58,0,30.96,"Fig. 4 (plan author of Luna's plans), 6b, 5a control; Table III"
+Luna (OpenCode) + AWS skill,1,Luna,OpenCode,,2,AWS skill,none,none,58,24,57,0,30.15,Fig. 5a; Table IV
+Astra (OpenCode),1,Astra,OpenCode,,2,none,none,none,58,24,58,0,44.17,"Fig. 4, 5a control; Table III"
+"Astra (OpenCode), alongside the literature runs",1,Astra,OpenCode,,2,none,none,none,6,4,6,0,43.31,Table VI (Astra's design)
+Astra implements a published method,1,Astra,OpenCode,,2,none,paper,published method,30,4,30,0,,Fig. 3a (deployment protocol); Table VI
+Luna implements Astra's plans,1,Luna,OpenCode,,2,none,astra,delivered,58,24,58,0,36.78,"Fig. 4, 6b, 5a; Table III"
+Luna implements Astra's plans,2,Luna,OpenCode,,2,none,astra,delivered,58,24,58,0,37.8,Table III (parentheses)
+Astra implements Luna's plans,1,Astra,OpenCode,,2,none,luna,delivered,58,24,58,0,31.51,"Fig. 4, 6b, 5a; Table III"
+Astra implements Luna's plans,2,Astra,OpenCode,,2,none,luna,delivered,58,24,58,0,31.49,Table III (parentheses)
+Astra implements Astra's lightened plans,1,Astra,OpenCode,,2,none,astra,lightened,58,24,58,0,42.62,text (Section V-D)
+Luna implements Astra's no-data plans,1,Luna,OpenCode,,2,none,astra,without data,58,24,57,1,27.2,Table III
+Astra implements Astra's no-data plans,1,Astra,OpenCode,,2,none,astra,without data,58,24,58,0,29.51,Fig. 5a; Table III
+"Luna, Astra's no-data plans as advice",1,Luna,OpenCode,,2,none,astra,"without data, as advice",58,24,57,0,30.36,text (Section V-C)
+Luna implements Luna's no-data plans,1,Luna,OpenCode,,2,none,luna,without data,58,24,55,0,25.99,Fig. 5a; Table III
+Astra implements Luna's no-data plans,1,Astra,OpenCode,,2,none,luna,without data,58,24,56,0,28.02,Table III
+Astra implements Astra's no-data plans,2,Astra,OpenCode,,2,none,astra,without data,58,24,58,0,29.97,Table III (parentheses)
+Luna implements Luna's no-data plans,2,Luna,OpenCode,,2,none,luna,without data,58,24,53,0,23.8,Table III (parentheses)
+Astra implements Luna's no-data plans,2,Astra,OpenCode,,2,none,luna,without data,58,24,58,0,28.57,Table III (parentheses)
+Qwen3.6,1,Qwen3.6,OpenCode,"4-bit (IQ4), workstation CPU",2,none,none,none,58,24,41,0,14.25,"Fig. 2, 5b, 7; Tables II, V"
+Qwen3.6,2,Qwen3.6,OpenCode,"4-bit (IQ4), cluster CPU",2,none,none,none,58,24,31,0,13.0,"Fig. 6a (no plan), 5b"
+Qwen3.6,3,Qwen3.6,OpenCode,"4-bit (IQ4), cluster GPU",2,none,none,none,58,24,33,0,10.71,Fig. 5b
+Qwen3.6,4,Qwen3.6,OpenCode,"4-bit (IQ4), cluster CPU, alongside the skill runs",2,none,none,none,58,24,35,0,12.51,"Fig. 6a (no plan), 5b"
+"Qwen3.6, 8-bit, CPU",1,Qwen3.6,OpenCode,"8-bit (Q8), cluster CPU",2,none,none,none,58,24,28,0,11.96,Fig. 5b
+"Qwen3.6, 8-bit, GPU",1,Qwen3.6,OpenCode,"8-bit (Q8), cluster GPU",2,none,none,none,58,24,35,0,14.12,Fig. 5b
+"Qwen3.6, 16-bit",1,Qwen3.6,OpenCode,"16-bit (BF16), 2x A100",2,none,none,none,58,24,39,0,16.6,Fig. 5b
+"Qwen3.6, 4 h",1,Qwen3.6,OpenCode,"4-bit (IQ4), cluster CPU, alongside the skill runs",4,none,none,none,58,24,46,0,13.12,Fig. 5b
+Qwen3.6 + workflow skill,1,Qwen3.6,OpenCode,"4-bit (IQ4), cluster CPU",2,workflow skill,none,none,58,24,43,0,18.99,Fig. 5b
+Qwen3.6 + workflow skill,2,Qwen3.6,OpenCode,"4-bit (IQ4), cluster CPU",2,workflow skill,none,none,58,24,35,0,11.52,Fig. 5b
+Gemma 4,1,Gemma 4,OpenCode,"4-bit (IQ4), cluster CPU",2,none,none,none,58,24,56,1,16.52,"Fig. 2, 5b, 7; Tables II, V"
+Qwen3.6 implements Astra's plans,1,Qwen3.6,OpenCode,"4-bit (IQ4), cluster CPU",2,none,astra,delivered,58,24,18,0,8.46,Fig. 6 and 5b
+Qwen3.6 implements Astra's plans,2,Qwen3.6,OpenCode,"4-bit (IQ4), cluster CPU",2,none,astra,delivered,58,24,19,0,10.2,Fig. 6 and 5b
+Qwen3.6 implements Luna's plans,1,Qwen3.6,OpenCode,"4-bit (IQ4), cluster CPU",2,none,luna,delivered,58,24,30,0,15.52,Fig. 6 and 5b
+Qwen3.6 implements Luna's plans,2,Qwen3.6,OpenCode,"4-bit (IQ4), cluster CPU",2,none,luna,delivered,58,24,31,0,13.84,Fig. 6 and 5b
+Qwen3.6 implements Astra's lightened plans,1,Qwen3.6,OpenCode,"4-bit (IQ4), cluster CPU",2,none,astra,lightened,58,24,12,0,8.11,Fig. 5b
+Qwen3.6 implements Astra's lightened plans,2,Qwen3.6,OpenCode,"4-bit (IQ4), cluster CPU",2,none,astra,lightened,58,24,23,2,11.01,Fig. 5b

@@ -1,0 +1,26 @@
+panel,group,cell,k,n,rate,lo,hi
+a,No plan,delivered,66,116,0.5689655172413793,0.47806242360837425,0.6554471423520268
+a,Luna's plans,delivered,61,116,0.5258620689655172,0.435628576899866,0.6144375103352844
+a,Astra's plans,delivered,37,116,0.31896551724137934,0.24112054263693897,0.4084168467170083
+load,Astra,tercile1,14,116,0.1206896551724138,,
+a_load,Astra,tercile1,9,14,0.6428571428571429,0.3876400468214042,0.8365550926279727
+load,Astra,tercile2,38,116,0.3275862068965517,,
+a_load,Astra,tercile2,15,38,0.39473684210526316,0.25597859263618905,0.5528241300130403
+load,Astra,tercile3,64,116,0.5517241379310345,,
+a_load,Astra,tercile3,13,64,0.203125,0.12273302562695812,0.3171386755121659
+load,Luna,tercile1,64,116,0.5517241379310345,,
+a_load,Luna,tercile1,40,64,0.625,0.5025015331382642,0.7333419611189468
+load,Luna,tercile2,40,116,0.3448275862068966,,
+a_load,Luna,tercile2,16,40,0.4,0.2634811061240136,0.5540438017260649
+load,Luna,tercile3,12,116,0.10344827586206896,,
+a_load,Luna,tercile3,5,12,0.4166666666666667,0.19325746190524656,0.6804926643446272
+b,Astra's plans,frontier_landed,31,116,,,
+b,Astra's plans,qwen_on_landed,4,116,,,
+b,Astra's plans,frontier_not,58,116,,,
+b,Astra's plans,qwen_on_not,1,116,,,
+b,Astra's plans,not_compared,27,116,,,
+b,Luna's plans,frontier_landed,76,116,,,
+b,Luna's plans,qwen_on_landed,17,116,,,
+b,Luna's plans,frontier_not,18,116,,,
+b,Luna's plans,qwen_on_not,1,116,,,
+b,Luna's plans,not_compared,22,116,,,

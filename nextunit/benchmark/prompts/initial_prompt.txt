@@ -1,0 +1,1 @@
+阅读 /workspace/task.md，并在 /workspace 完成任务。将交付入口 artifact.py、resources.json 及其所需文件直接放在 /workspace。
